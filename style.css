@@ -7,7 +7,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
-    margin: 0;
+    margin: 0 auto;
+   
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden !important;
 }
 header{
     background-color: #562EFF;
@@ -15,6 +20,7 @@ header{
 }
 .nav{
     width: 870px;
+    max-width: 100%;
     margin: 0px auto;
 }
 .menu{
@@ -55,6 +61,7 @@ main{
 .container{
     background-color: #ffffff;
     width: 870px;
+    max-width: 100%;
     padding: 30px;
     margin-top: 21px;
     border-radius: 5px;
@@ -173,16 +180,20 @@ hr{
 
 @media only screen and (max-width: 688px) {
     .nav{
-        width: 100%;
-        padding: 5px;
+        max-width: 100%;
     }
+    .menu {
+            padding: 0 20px;
+        }
     .icon img{
         height: 30%;
     }
-    .container{
-        width: 100%;
-        margin-left: 30px;
-    }
+        .container {
+            width: 600px;
+            max-width: 100%;
+            margin: 21px auto;
+            padding: 10px 10px 0 10px;
+        }
     .section-title{
         font-size: 18px;
     }
