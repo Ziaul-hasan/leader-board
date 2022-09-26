@@ -76,7 +76,7 @@ hr{
 .players{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    row-gap: 30px;
+    gap: 30px;
 }
 .player{
     display: flex;
@@ -95,7 +95,7 @@ hr{
 .blogs{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
-    row-gap: 26px;
+    gap: 26px;
 }
 .blog{
     display: flex;
@@ -126,7 +126,7 @@ hr{
 .courses{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    column-gap: 24px;
+    gap: 30px;
 }
 .course{
     padding: 8px;
@@ -188,7 +188,7 @@ hr{
     }
     .players , .blogs , .courses{
         grid-template-columns: repeat(1 , 1fr);
-        row-gap: 10px;
+        /* gap: 30px; */
     }
     .blogs , .courses{
         width: 90%;
